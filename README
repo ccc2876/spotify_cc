@@ -1,0 +1,36 @@
+# spotify_cc
+# Requirements
+1. Two spotify accounts (free or premium)
+2. spotify-buddylist downloaded https://github.com/valeriangalliat/spotify-buddylist
+3. Geckodriver downloaded in path
+
+
+# Steps
+## Creating the configuration file
+1. The configuration file should contain the following lines
+```
+[account]
+user=
+password=
+encoding_token=
+decoding_token=
+```
+
+type=free
+1. Retrieve API tokens for b
+# Contents
+**binary_encoder.py**
+
+This file runs the encoding of a message using the binary explicit tag method.
+
+**binary_decoder.py**
+
+This file decodes messages that were uploaded using the binary method.
+
+**album_enconding.py**
+
+This file runs the encoding using the album name method.
+
+**album_decoder.py**
+
+This file will decode messages that were created using the album name method.
